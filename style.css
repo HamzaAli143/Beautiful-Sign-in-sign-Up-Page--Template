@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #01BE60;
+}
+#SignInPageContainer{
+    width: 70%;
+    height: 60vh;
+    background-color: white;
+    z-index: 1;
+    margin: 2% 0 0 2%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#SignInPageContainer::after{
+    content: "";
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(#353802, #252700);
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(60deg);
+    top: -75%;
+    left: -30%;
+    z-index: -1;
+
+}
+.text{
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+.sign-in-box{
+    text-align: center;
+    /* border: 2px solid gray; */
+    width: 35%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-family: arial;
+    box-shadow: 0px 2px 5px rgba(24, 23, 23, 0.534);
+    line-height: 30px;
+}
+.sign-in-box a{
+    text-decoration: none;
+    color: black;
+}
+.sign-in-box input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid rgba(128, 128, 128, 0.767);
+    border-radius: 5px;
+}
+.sign-in-box button{
+    width: 100%;
+    padding: 9px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.sign-in-box p{
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+
+
+
+
+#SignUpPageContainer{
+    width: 70%;
+    height: 60vh;
+    background-color: white;
+    z-index: 1;
+    margin: 2% 0 5% 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+}
+#SignUpPageContainer::after{
+    content: "";
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(#DAE502, #a8b102);
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(60deg);
+    bottom: -70%;
+    right: -30%;
+    z-index: -1;
+
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+.sign-up-box{
+    text-align: center;
+    /* border: 2px solid gray; */
+    width: 35%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-family: arial;
+    box-shadow: 0px 2px 5px rgba(24, 23, 23, 0.534);
+    line-height: 30px;
+}
+.sign-up-box a{
+    text-decoration: none;
+    color: black;
+}
+.sign-up-box input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid rgba(128, 128, 128, 0.767);
+    border-radius: 5px;
+}
+.sign-up-box button{
+    width: 100%;
+    padding: 9px 0;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.sign-up-box p{
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
+    padding: 0 20px;
+}
